@@ -9,17 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Outlets
+    
+    @IBOutlet weak var currentStatusLabel: UILabel!
+    @IBOutlet weak var gridView: GridView!
+    @IBOutlet weak var name1TextField: UITextField!
+    @IBOutlet weak var name2TextField: UITextField!
+    @IBOutlet weak var namesLabel: UILabel!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var winnerLabel: UILabel!
+    
+    // MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // MARK: - Actions
+    
+    @IBAction func startButtonTapped(sender: UIButton) {
+        
     }
-
-
+    
+    
 }
-
